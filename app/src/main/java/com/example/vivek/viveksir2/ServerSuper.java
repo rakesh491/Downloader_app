@@ -53,6 +53,7 @@ public class ServerSuper {
             final InputStream[] input = new InputStream[1];
             final OutputStream[] output = new OutputStream[1];
                 Log.e("TAR","Thread Started");
+                //Something added
                     thread2 = new Thread(){
                         @Override
                         public void run(){
